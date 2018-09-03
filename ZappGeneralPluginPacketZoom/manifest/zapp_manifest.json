@@ -1,0 +1,43 @@
+{
+  "api": {
+    "require_startup_execution": true,
+    "class_name": "ZPPluginPacketzoom",
+    "modules": [
+      "ZappGeneralPluginPacketZoom",
+      "ZappGeneralPlugins"
+    ]
+  },
+  "dependency_repository_url": [
+
+  ],
+  "platform": "ios",
+  "author_name": "Alex Zchut",
+  "author_email": "a.zchut@applicaster.com",
+  "manifest_version": "4.1.0",
+  "name": "Packetzoom",
+  "description": "With Packetzoom, your mobile apps can reduce the number of round trips and make much more efficient use of bandwidth available to the user",
+  "type": "general",
+  "identifier": "Packetzoom-iOS",
+  "ui_builder_support": true,
+  "dependency_name": "ZappGeneralPlugins/Packetzoom",
+  "dependency_version": "4.1.0",
+  "whitelisted_account_ids": [
+
+  ],
+  "min_zapp_sdk": "7.1.2-Dev",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "react_native": false,
+  "custom_configuration_fields": [
+    {
+      "type": "text",
+      "key": "packetzoom_appid",
+      "tooltip_text": "Please add packetzoom app id"
+    },
+    {
+      "type": "text",
+      "key": "packetzoom_apikey",
+      "tooltip_text": "Please add a packetzoom api key"
+    }
+  ]
+}
